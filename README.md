@@ -7,14 +7,15 @@
 
 ## Grupo: Nombre del Grupo
 **Integrantes:**
-- Integrante 1 ([GitHub](https://github.com/integrante1))
-- Integrante 2 ([GitHub](https://github.com/integrante2))
-- Integrante 3 ([GitHub](https://github.com/integrante3))
-- Integrante 4 ([GitHub](https://github.com/integrante4))
-- Integrante 5 ([GitHub](https://github.com/integrante5))
-- Integrante 6 ([GitHub](https://github.com/integrante6))
-- Integrante 7 ([GitHub](https://github.com/integrante7))
-- Integrante 8 ([GitHub](https://github.com/integrante8))
+- Fernando Gimenez Coria ([GitHub](https://github.com/FerCbr))
+- Patricio Leandro Roldan ([GitHub](https://github.com/pleroldan))
+- Diego Ezequiel Ares ([GitHub](https://github.com/diegote7))
+- Romina Huk ([GitHub](https://github.com/RoHu17))
+- Karina jazmin barbero ([GitHub](https://github.com/karina-lolis))
+- Nicolás Barrionuevo ([GitHub](https://github.com/NicolasBa27))
+- Macarena Aylen Carballo ([GitHub](https://github.com/MacarenaAC))
+- Paola Pantoja ([GitHub](https://github.com/PaolaaPantoja))
+- Raul Jara ([GitHub](https://github.com/r-j28))
 
 ---
 
