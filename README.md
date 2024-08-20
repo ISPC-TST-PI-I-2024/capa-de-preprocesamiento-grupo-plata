@@ -21,7 +21,7 @@
 
 ## Capa de Preprocesamiento 
 
-### Sistema IoT para la Gestión y Monitoreo de Cultivos Inteligentes
+### Sistema IoT para el Monitoreo Ambiental.
 
 ### Descripción del Proyecto:
 Este proyecto consiste en diseñar e implementar un sistema IoT que monitoree las condiciones ambientales de un cultivo, como temperatura, humedad y niveles de luz, y optimice el uso de recursos (agua, fertilizantes) mediante el uso de Edge y Fog Computing. El sistema debe ser capaz de procesar los datos localmente en dispositivos edge, aplicar lógicas de filtrado y normalización, y tomar decisiones en tiempo real para la automatización del riego y otras tareas cruciales. En una instancia superior, no cubierta, los datos procesados se transmitirían a la nube para su almacenamiento y análisis más profundo.
