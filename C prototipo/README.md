@@ -27,6 +27,7 @@
 
 **Estructura del Prototipo**
 1. **Equipo**
+   
 - **Componentes principales:**
 
 - Sensores Ambientales: Se utilizarán sensores de temperatura, humedad, calidad del aire (CO2, PM2.5, PM10), y niveles de luz. Estos sensores capturan datos en tiempo real y los envían al microcontrolador.
@@ -35,6 +36,7 @@
 - Carcasa: Se diseñará una carcasa a medida, posiblemente fabricada con una impresora 3D, para alojar el hardware del prototipo.
 
 2. **Software**
+   
 - **Módulos principales:**
 
 - Captura de Datos: Código para la inicialización y adquisición de datos de los sensores ambientales. La comunicación con los sensores se manejará a través de - protocolos I2C/SPI.
@@ -44,6 +46,7 @@
 - Interfaz de Usuario: Una sencilla interfaz LCD o LED que mostrará el estado del dispositivo y los niveles de calidad del aire en tiempo real.
 
 3. **Conectividad**
+   
 
 - **Redes soportadas:**
 
@@ -56,6 +59,7 @@
 - HTTP/HTTPS: Utilizado para la comunicación segura con servidores web y APIs.
 
 4. **Plataforma en la Nube**
+   
 
 - **Servicios sugeridos a utilizar:**
 
@@ -64,6 +68,7 @@
 - Dashboard de Monitoreo: Una interfaz web sencilla que permitirá la visualización en tiempo real de los datos de calidad del aire transmitidos por el dispositivo.
 
 5. **Pruebas y Validación**
+   
 
 - **Pruebas realizadas:**
 
@@ -72,6 +77,7 @@
 - Pruebas de Durabilidad: Evaluación de la duración de la batería bajo uso continuo.
 
 6. **Instrucciones de Configuración**
+   
 
 - **Requisitos previos:**
 
@@ -86,6 +92,7 @@
 - Ejecutar el Prototipo: Encender el dispositivo y verificar que los datos se transmiten correctamente a la nube.
 
 7. **Futuras Mejoras**
+   
 
 - Optimización del Consumo de Energía: Mejorar las rutinas de gestión de energía para extender la duración de la batería.
 - Mejoras en la Interfaz de Usuario: Desarrollar una interfaz gráfica más avanzada en la aplicación móvil para la visualización de datos.
