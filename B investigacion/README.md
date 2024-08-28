@@ -64,9 +64,11 @@ Descripción: La capa EDGE es responsable de la adquisición inicial y preproces
 
 **Optimización del Preprocesamiento:**
 -  Desarrollar y optimizar técnicas de preprocesamiento en las capas EDGE y FOG para mejorar la calidad de los datos transmitidos, asegurando que sean precisos y útiles para la toma de decisiones.
+  
 **Reducción de Latencia:**
 -  Minimizar la latencia en la adquisición, procesamiento y transmisión de datos a través de las distintas capas, para una respuesta rápida y eficiente.
 Seguridad de Datos: Implementar métodos avanzados de encriptación y autenticación a lo largo de las tres capas para garantizar la seguridad y privacidad de los datos transmitidos.
+
 **Escalabilidad:**
 -  Diseñar una arquitectura escalable que permita la integración de múltiples dispositivos y el manejo de grandes volúmenes de datos sin comprometer el rendimiento del sistema.
 
