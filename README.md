@@ -14,7 +14,7 @@
 - Karina jazmin barbero ([GitHub](https://github.com/karina-lolis))
 - Nicolás Barrionuevo ([GitHub](https://github.com/NicolasBa27))
 - Macarena Aylen Carballo ([GitHub](https://github.com/MacarenaAC))
-- Paola Pantoja ([GitHub](https://github.com/PaolaaPantoja))
+- Paola Natalia Alejandra Pantoja ([GitHub](https://github.com/PaolaaPantoja))
 - Raul Jara ([GitHub](https://github.com/r-j28))
 ---
 
