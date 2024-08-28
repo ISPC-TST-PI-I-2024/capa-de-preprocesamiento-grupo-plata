@@ -5,7 +5,7 @@
 **Materia:** Proyecto Integrador I  
 **Docente:** Cristian Gonzalo Vera  
 
-## Grupo: Nombre del Grupo
+## Grupo: PLATA
 **Integrantes:**
 - Fernando Gimenez Coria ([GitHub](https://github.com/FerCbr))
 - Patricio Leandro Roldan ([GitHub](https://github.com/pleroldan))
