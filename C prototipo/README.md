@@ -5,7 +5,7 @@
 **Materia:** Proyecto Integrador I  
 **Docente:** Cristian Gonzalo Vera  
 
-## Grupo: Nombre del Grupo
+## Grupo: PLATA
 **Integrantes:**
 - Fernando Gimenez Coria ([GitHub](https://github.com/FerCbr))
 - Patricio Leandro Roldan ([GitHub](https://github.com/pleroldan))
@@ -14,7 +14,7 @@
 - Karina jazmin barbero ([GitHub](https://github.com/karina-lolis))
 - Nicolás Barrionuevo ([GitHub](https://github.com/NicolasBa27))
 - Macarena Aylen Carballo ([GitHub](https://github.com/MacarenaAC))
-- Paola Pantoja ([GitHub](https://github.com/PaolaaPantoja))
+- Paola Natalia Alejandra Pantoja ([GitHub](https://github.com/PaolaaPantoja))
 - Raul Jara ([GitHub](https://github.com/r-j28))
 ---
 
