@@ -1,22 +1,3 @@
-# Proyecto Integrador I 
-
-## Instituto: ISPC  
-**Carrera:** ![Tecnicatura Superior en Telecomunicaciones](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Telecommunications_Tower_at_McMurdo_Station_007.jpg/800px-Telecommunications_Tower_at_McMurdo_Station_007.jpg)  
-**Materia:** Proyecto Integrador I  
-**Docente:** Cristian Gonzalo Vera  
-
-## Grupo: PLATA
-**Integrantes:**
-- Fernando Gimenez Coria ([GitHub](https://github.com/FerCbr))
-- Patricio Leandro Roldan ([GitHub](https://github.com/pleroldan))
-- Diego Ezequiel Ares ([GitHub](https://github.com/diegote7))
-- Romina Huk ([GitHub](https://github.com/RoHu17))
-- Karina jazmin barbero ([GitHub](https://github.com/karina-lolis))
-- Nicolás Barrionuevo ([GitHub](https://github.com/NicolasBa27))
-- Macarena Aylen Carballo ([GitHub](https://github.com/MacarenaAC))
-- Paola Natalia Alejandra Pantoja ([GitHub](https://github.com/PaolaaPantoja))
-- Raul Jara ([GitHub](https://github.com/r-j28))
----
 
 ## Capa de Preprocesamiento 
 
