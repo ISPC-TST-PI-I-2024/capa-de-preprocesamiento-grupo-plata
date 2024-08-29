@@ -5,17 +5,127 @@
 **Docente:** Cristian Gonzalo Vera  
 
 ## Grupo: PLATA
-**Integrantes:**
-- Fernando Gimenez Coria ([GitHub](https://github.com/FerCbr))
-- Patricio Leandro Roldan ([GitHub](https://github.com/pleroldan))
-- Diego Ezequiel Ares ([GitHub](https://github.com/diegote7))
-- Romina Huk ([GitHub](https://github.com/RoHu17))
-- Karina jazmin barbero ([GitHub](https://github.com/karina-lolis))
-- Nicolás Barrionuevo ([GitHub](https://github.com/NicolasBa27))
-- Macarena Aylen Carballo ([GitHub](https://github.com/MacarenaAC))
-- Paola Natalia Alejandra Pantoja ([GitHub](https://github.com/PaolaaPantoja))
-- Raul Jara ([GitHub](https://github.com/r-j28))
+<h1> Docente </h1>
+        <table align="center">
+          <thead>
+            <tr>
+              <th>Nombre y Apellido</th>
+              <th>Usuario en GitHub</th>
+              <th>GitHub</th>
+            </tr>
+          </thead>
+          <tbody>
+           <tr>
+              <td> Cristian Gonzalo Vera </td>
+              <td> Gona79 </td>
+              <td>
+                <a href="https://github.com/Gona79">
+                  <img src="https://img.shields.io/badge/github-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/>
+                </a>
+              </td>
+            </tr>
+        </table>
+  </dd>
+  <dd>
+<dl>
 
+<br>
+
+<h1> 👩‍💻👨🏼‍💻 Integrantes 👩‍💻👨🏼‍💻 </h1>
+        <table align="center">
+          <thead>
+            <tr>
+              <th>Nombre y Apellido</th>
+              <th>Usuario en GitHub</th>
+              <th>GitHub</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td> Leandro Roldan </td>
+              <td> pleroldan </td>
+              <td>
+                <a href="https://github.com/pleroldan">
+                  <img src="https://img.shields.io/badge/github-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/>
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td> Fernando Gimenez Coria </td>
+              <td> FerCbr </td>
+              <td>
+                <a href="https://github.com/FerCbr">
+                  <img src="https://img.shields.io/badge/github-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/>
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td> Karina jazmin barbero </td>
+              <td> karina-lolis </td>
+              <td>
+                <a href="https://github.com/karina-lolis">
+                  <img src="https://img.shields.io/badge/github-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/>
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td> Nicolás Nahuel Barrionuevo </td>
+              <td> NicolasBa27 </td>
+              <td>
+                <a href="https://github.com/NicolasBa27">
+                  <img src="https://img.shields.io/badge/github-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/>
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td> Macarena Aylen Carballo </td>
+              <td> MacarenaAC </td>
+              <td>
+                <a href="https://github.com/MacarenaAC">
+                  <img src="https://img.shields.io/badge/github-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/>
+                </a>
+              </td>
+            </tr>
+           <tr>
+              <td> Raul Jara </td>
+              <td> r-j28 </td>
+              <td>
+                <a href="https://github.com/r-j28">
+                  <img src="https://img.shields.io/badge/github-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/>
+                </a>
+              </td>
+            </tr>
+           <tr>
+              <td> Diego Ezequiel Ares </td>
+              <td>  diegote7 </td>
+              <td>
+                <a href="https://github.com/diegote7">
+                  <img src="https://img.shields.io/badge/github-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/>
+                </a>
+              </td>
+            </tr>
+           <tr>
+              <td> Romina Huk </td>
+              <td> RoHu17 </td>
+              <td>
+                <a href="https://github.com/RoHu17">
+                  <img src="https://img.shields.io/badge/github-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/>
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td> Paola Pantoja </td>
+              <td> - </td>
+              <td>
+                <a href="https://github.com/PaolaaPantoja">
+                  <img src="https://img.shields.io/badge/github-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/>
+                </a>
+              </td>
+            </tr>
+        </table>
+  </dd>
+  <dd>
+<dl>
 
 ## Capa de Preprocesamiento 
 
@@ -37,7 +147,7 @@ El sistema procesará los datos localmente en dispositivos edge, aplicando lógi
 2. **Preprocesamiento de Datos en el Edge (Capa de Preprocesamiento):**
    - **Implementación de Microservicios en Edge:**
      - Los microcontroladores ESP32-Wroom actuarán como nodos edge, procesando los datos recolectados por los sensores en tiempo real.
-     - mplementación de microservicios para filtrar datos y normalizar entradas antes de tomar decisiones de formas automatizadas.
+     - Implementación de microservicios para filtrar datos y normalizar entradas antes de tomar decisiones de formas automatizadas.
    - **Toma de Decisiones en el Edge:**
      - Basado en las condiciones recolectadas, el sistema permiten obtener información en tiempo real de las condiciones ambientales, lo que proporciona información actualizada sobre la calidad del aire, la temperatura, la humedad, entre otros parámetros. Esto facilita a las autoridades y a los ciudadanos a estar al tanto de cualquier cambio que afecte directamente al bienestar general.
      
