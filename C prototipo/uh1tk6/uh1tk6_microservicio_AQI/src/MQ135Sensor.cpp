@@ -19,7 +19,7 @@ float MQ135Sensor::readFilteredData() {
     mq135Average = mq135Total / NUM_READINGS;
 
     // Filtrado de datos erróneos
-    if (mq135Average < 0 || mq135Average > 500) {
+    if (mq135Average < 10 || mq135Average > 1000) {
         return -1;
     }
 
