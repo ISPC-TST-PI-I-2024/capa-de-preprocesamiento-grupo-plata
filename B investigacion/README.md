@@ -15,7 +15,7 @@ Descripción: La capa EDGE es responsable de la adquisición inicial y preproces
 **Especificaciones:**
 
 - Captura de Datos: Los sensores integrados (temperatura, humedad, niveles de luz, entre otros) recopilan datos en tiempo real sobre la calidad del aire. Estos sensores están distribuidos en varias ubicaciones críticas dentro de la infraestructura.
-- Filtrado y Normalización: Los datos capturados pasan por técnicas de filtrado para eliminar el ruido y normalización para asegurar la coherencia en las mediciones.
+- Filtrado y Normalización: Los datos capturados pasan por técnicas de filtrado para eliminar el ruido y normalización para asegurar la coherencia en las mediciones. [!TEORIAS_DE_FILTRADO](./teorias%20de%20filtrado.md)
 - Compresión de Datos: Se implementan algoritmos de compresión para reducir el volumen de datos transmitidos a la capa FOG, conservando la integridad de la información.
 - Seguridad: Se aplica una encriptación básica para proteger los datos durante su transmisión a la capa FOG.
 
