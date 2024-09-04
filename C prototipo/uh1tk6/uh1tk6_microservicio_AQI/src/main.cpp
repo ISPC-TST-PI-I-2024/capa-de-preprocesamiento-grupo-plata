@@ -2,7 +2,7 @@
 #include <Wire.h>
 #include "MQ135Sensor.h"
 #include "AHT25Sensor.h"
-#include "BME280Sensor.h"
+#include "BMP280Sensor.h"
 
 // --------------------- Configuración de Pines ---------------------
 #define MQ135_PIN 34 // GPIO34 (ADC1_CH6)
@@ -10,7 +10,7 @@
 // --------------------- Inicialización de Sensores ---------------------
 MQ135Sensor mq135(MQ135_PIN);
 AHT25Sensor aht25;
-BME280Sensor bme280;
+BMP280Sensor bmp280;
 
 // --------------------- Configuración Inicial ---------------------
 void setup() {
@@ -22,7 +22,7 @@ void setup() {
     Wire.begin();
     mq135.begin();
     aht25.begin();
-    bme280.begin();
+    bmp280.begin();
 
     Serial.println("Todos los sensores están listos.");
 }
@@ -52,22 +52,18 @@ void loop() {
         Serial.println("Lectura AHT25 inválida.");
     }
 
-    // Lectura y filtrado de datos del BME280
-    float bmeTemp, bmePressure, bmeHumidity;
-    if (bme280.readData(bmeTemp, bmePressure, bmeHumidity)) {
-        Serial.print("BME280 Temperatura: ");
-        Serial.print(bmeTemp);
+    // Lectura y filtrado de datos del BMP280
+    float bmpTemp, bmpPressure;
+    if (bmp280.readData(bmpTemp, bmpPressure)) {
+        Serial.print("BMP280 Temperatura: ");
+        Serial.print(bmpTemp);
         Serial.println(" *C");
 
-        Serial.print("BME280 Presión: ");
-        Serial.print(bmePressure);
+        Serial.print("BMP280 Presión: ");
+        Serial.print(bmpPressure);
         Serial.println(" hPa");
-
-        Serial.print("BME280 Humedad: ");
-        Serial.print(bmeHumidity);
-        Serial.println(" %");
     } else {
-        Serial.println("Lectura BME280 inválida.");
+        Serial.println("Lectura BMP280 inválida.");
     }
 
     Serial.println("---------------------------");

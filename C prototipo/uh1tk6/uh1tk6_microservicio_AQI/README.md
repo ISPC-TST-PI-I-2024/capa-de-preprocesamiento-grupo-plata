@@ -2,7 +2,7 @@
 
 ## Descripción General
 
-Este proyecto tiene como objetivo desarrollar un microservicio utilizando un ESP32-Wroom de 38 pines para la recolección de datos de tres sensores: **MQ135**, **AHT25** y **BME280**.   
+Este proyecto tiene como objetivo desarrollar un microservicio utilizando un ESP32-Wroom de 38 pines para la recolección de datos de tres sensores: **MQ135**, **AHT25** y **BMP280**.   
 El sistema está diseñado para ser escalable y fácil de mantener, con cada sensor gestionado por un módulo independiente.  
 Los datos recogidos son filtrados y mostrados en el monitor serie.
 
@@ -14,8 +14,8 @@ src/
 ├── MQ135Sensor.h   
 ├── AHT25Sensor.cpp   
 ├── AHT25Sensor.h   
-├── BME280Sensor.cpp   
-├── BME280Sensor.h  
+├── BMP280Sensor.cpp   
+├── BMP280Sensor.h  
 
   
 
@@ -86,16 +86,16 @@ Devuelve `true` si los datos son válidos y `false` si no lo son.
   - **Temperatura:** -40°C a 80°C
   - **Humedad:** 0% a 100%
 
-## 4. **BME280Sensor.h y BME280Sensor.cpp**
+## 4. **BMP280Sensor.h y BM2p80Sensor.cpp**
 
-Estos archivos implementan la clase `BME280Sensor`, que gestiona el sensor **BME280** para la medición de temperatura, presión barométrica y humedad relativa.
+Estos archivos implementan la clase `BMP280Sensor`, que gestiona el sensor **BMP280** para la medición de temperatura, presión barométrica y humedad relativa.
 
 ### Funciones clave:
 - `begin()`:   
-Inicializa el sensor **BME280** y verifica su disponibilidad en el bus I2C.  
+Inicializa el sensor **BMP280** y verifica su disponibilidad en el bus I2C.  
 
-- `readData(float &temperature, float &pressure, float &humidity)`:   
-Lee los datos de temperatura, presión y humedad del sensor.   
+- `readData(float &temperature, float &pressure)`:   
+Lee los datos de temperatura, y presión del sensor.   
 Aplica filtros para descartar valores fuera de rangos predefinidos.   
 Devuelve `true` si los datos son válidos y `false` si no lo son.
 
@@ -105,13 +105,13 @@ Devuelve `true` si los datos son válidos y `false` si no lo son.
 - **Rangos de validación:**
   - **Temperatura:** -40°C a 80°C
   - **Presión:** 300 hPa a 1100 hPa
-  - **Humedad:** 0% a 100%
+  
 
 ## **Librerias necesarias**
 
 Para que el programa funcione es necesario instalar las siguientes librerias en el IDE:  
 
-- **Adafruit BME280.h**
+- **Adafruit BMP280.h**
 - **Adafruit AHTX0.h**
 - **MQ135.h**   
 
@@ -132,7 +132,7 @@ Los sensores se conectan al ESP32-Wroom según las siguientes especificaciones:
   - **SDA:** GPIO21
   - **SCL:** GPIO22
   
-- **BME280 (I2C):**
+- **BMP280 (I2C):**
   - **VCC:** 3.3V
   - **GND:** GND
   - **SDA:** GPIO21
