@@ -1,4 +1,6 @@
-![img](./E%20assets/logoCapaPrepro.PNG)
+
+[![imagen-G-P-preprocesamiento.jpg](https://i.postimg.cc/C1PbbHCQ/imagen-G-P-preprocesamiento.jpg)](https://postimg.cc/HcMJgMhw)
+
 ## Instituto: ISPC  
 **Carrera:** Tecnicatura Superior en Telecomunicaciones.  
 **Materia:** Proyecto Integrador I  
