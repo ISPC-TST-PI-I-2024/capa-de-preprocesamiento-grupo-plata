@@ -1,29 +1,137 @@
-# Proyecto Integrador I 
-
 ## Instituto: ISPC  
-**Carrera:** ![Tecnicatura Superior en Telecomunicaciones](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Telecommunications_Tower_at_McMurdo_Station_007.jpg/800px-Telecommunications_Tower_at_McMurdo_Station_007.jpg)  
+**Carrera:** Tecnicatura Superior en Telecomunicaciones.  
 **Materia:** Proyecto Integrador I  
 **Docente:** Cristian Gonzalo Vera  
 
 ## Grupo: PLATA
-**Integrantes:**
-- Fernando Gimenez Coria ([GitHub](https://github.com/FerCbr))
-- Patricio Leandro Roldan ([GitHub](https://github.com/pleroldan))
-- Diego Ezequiel Ares ([GitHub](https://github.com/diegote7))
-- Romina Huk ([GitHub](https://github.com/RoHu17))
-- Karina jazmin barbero ([GitHub](https://github.com/karina-lolis))
-- Nicolás Barrionuevo ([GitHub](https://github.com/NicolasBa27))
-- Macarena Aylen Carballo ([GitHub](https://github.com/MacarenaAC))
-- Paola Pantoja ([GitHub](https://github.com/PaolaaPantoja))
-- Raul Jara ([GitHub](https://github.com/r-j28))
----
+<h1> Docente </h1>
+        <table align="center">
+          <thead>
+            <tr>
+              <th>Nombre y Apellido</th>
+              <th>Usuario en GitHub</th>
+              <th>GitHub</th>
+            </tr>
+          </thead>
+          <tbody>
+           <tr>
+              <td> Cristian Gonzalo Vera </td>
+              <td> Gona79 </td>
+              <td>
+                <a href="https://github.com/Gona79">
+                  <img src="https://img.shields.io/badge/github-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/>
+                </a>
+              </td>
+            </tr>
+        </table>
+  </dd>
+  <dd>
+<dl>
 
+<br>
 
-### Sistema IoT para el Monitoreo de Calidad del Aire.
+<h1> 👩‍💻👨🏼‍💻 Integrantes 👩‍💻👨🏼‍💻 </h1>
+        <table align="center">
+          <thead>
+            <tr>
+              <th>Nombre y Apellido</th>
+              <th>Usuario en GitHub</th>
+              <th>GitHub</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td> Leandro Roldan </td>
+              <td> pleroldan </td>
+              <td>
+                <a href="https://github.com/pleroldan">
+                  <img src="https://img.shields.io/badge/github-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/>
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td> Fernando Gimenez Coria </td>
+              <td> FerCbr </td>
+              <td>
+                <a href="https://github.com/FerCbr">
+                  <img src="https://img.shields.io/badge/github-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/>
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td> Karina jazmin barbero </td>
+              <td> karina-lolis </td>
+              <td>
+                <a href="https://github.com/karina-lolis">
+                  <img src="https://img.shields.io/badge/github-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/>
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td> Nicolás Nahuel Barrionuevo </td>
+              <td> NicolasBa27 </td>
+              <td>
+                <a href="https://github.com/NicolasBa27">
+                  <img src="https://img.shields.io/badge/github-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/>
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td> Macarena Aylen Carballo </td>
+              <td> MacarenaAC </td>
+              <td>
+                <a href="https://github.com/MacarenaAC">
+                  <img src="https://img.shields.io/badge/github-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/>
+                </a>
+              </td>
+            </tr>
+           <tr>
+              <td> Raul Jara </td>
+              <td> r-j28 </td>
+              <td>
+                <a href="https://github.com/r-j28">
+                  <img src="https://img.shields.io/badge/github-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/>
+                </a>
+              </td>
+            </tr>
+           <tr>
+              <td> Diego Ezequiel Ares </td>
+              <td>  diegote7 </td>
+              <td>
+                <a href="https://github.com/diegote7">
+                  <img src="https://img.shields.io/badge/github-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/>
+                </a>
+              </td>
+            </tr>
+           <tr>
+              <td> Romina Huk </td>
+              <td> RoHu17 </td>
+              <td>
+                <a href="https://github.com/RoHu17">
+                  <img src="https://img.shields.io/badge/github-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/>
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td> Paola Pantoja </td>
+              <td> - </td>
+              <td>
+                <a href="https://github.com/PaolaaPantoja">
+                  <img src="https://img.shields.io/badge/github-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/>
+                </a>
+              </td>
+            </tr>
+        </table>
+  </dd>
+  <dd>
+<dl>
 
-### Descripción del Proyecto:
+## Sistema IoT para el Monitoreo de Calidad del Aire.
 
-- Este proyecto tiene como objetivo desarrollar un sistema IoT para el monitoreo continuo de la calidad del aire en entornos inmóticos, utilizando una red de sensores que capturan datos en tiempo real sobre parámetros clave como temperatura, humedad, y niveles de contaminantes (CO2, PM2.5, PM10). Estos datos son procesados localmente en dispositivos edge para aplicar filtrado y normalización, lo que permite la toma de decisiones automáticas inmediatas, como la activación de sistemas de ventilación o alertas. La información también se transmite a la nube para un análisis más profundo, facilitando la toma de decisiones basada en datos por parte de las autoridades y organismos interesados.
+### Presentación del Proyecto y Equipo 
+Este proyecto surge como una propuesta integradora en el ámbito del Internet de las Cosas (IoT), centrada en la creación de un sistema de monitoreo ambiental con énfasis en la calidad del aire. Utilizando arquitecturas de Edge y Fog Computing, buscamos diseñar una solución capaz de medir, analizar y alertar sobre los niveles de contaminantes en entornos urbanos y domésticos. Nuestra meta es contribuir a la prevención de riesgos relacionados con la contaminación del aire y a la mejora de la calidad de vida en las ciudades.
+
+El equipo está compuesto por estudiantes de la Tecnicatura Superior en Telecomunicaciones, quienes aportan sus conocimientos en áreas como redes, electrónica, programación y gestión de proyectos. Nuestro enfoque es multidisciplinario, con el objetivo de implementar una solución tecnológica que pueda integrarse en la gestión ambiental urbana y en sistemas inteligentes para el monitoreo del aire. Este proyecto refleja nuestro compromiso con la innovación, la sostenibilidad y el bienestar de la sociedad.
 
 **Componentes Clave:**
 - Sensores Ambientales: Detectan y registran en tiempo real las condiciones del aire.
