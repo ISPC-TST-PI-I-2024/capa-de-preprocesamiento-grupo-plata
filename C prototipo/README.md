@@ -1,23 +1,132 @@
 # Proyecto Integrador I 
 
 ## Instituto: ISPC  
-**Carrera:** ![Tecnicatura Superior en Telecomunicaciones](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Telecommunications_Tower_at_McMurdo_Station_007.jpg/800px-Telecommunications_Tower_at_McMurdo_Station_007.jpg)  
+**Carrera:** Tecnicatura Superior en Telecomunicaciones.  
 **Materia:** Proyecto Integrador I  
 **Docente:** Cristian Gonzalo Vera  
 
 ## Grupo: PLATA
-**Integrantes:**
-- Fernando Gimenez Coria ([GitHub](https://github.com/FerCbr))
-- Patricio Leandro Roldan ([GitHub](https://github.com/pleroldan))
-- Diego Ezequiel Ares ([GitHub](https://github.com/diegote7))
-- Romina Huk ([GitHub](https://github.com/RoHu17))
-- Karina jazmin barbero ([GitHub](https://github.com/karina-lolis))
-- Nicolás Barrionuevo ([GitHub](https://github.com/NicolasBa27))
-- Macarena Aylen Carballo ([GitHub](https://github.com/MacarenaAC))
-- Paola Natalia Alejandra Pantoja ([GitHub](https://github.com/PaolaaPantoja))
-- Raul Jara ([GitHub](https://github.com/r-j28))
----
+<h1> Docente </h1>
+        <table align="center">
+          <thead>
+            <tr>
+              <th>Nombre y Apellido</th>
+              <th>Usuario en GitHub</th>
+              <th>GitHub</th>
+            </tr>
+          </thead>
+          <tbody>
+           <tr>
+              <td> Cristian Gonzalo Vera </td>
+              <td> Gona79 </td>
+              <td>
+                <a href="https://github.com/Gona79">
+                  <img src="https://img.shields.io/badge/github-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/>
+                </a>
+              </td>
+            </tr>
+        </table>
+  </dd>
+  <dd>
+<dl>
 
+<br>
+
+<h1> 👩‍💻👨🏼‍💻 Integrantes 👩‍💻👨🏼‍💻 </h1>
+        <table align="center">
+          <thead>
+            <tr>
+              <th>Nombre y Apellido</th>
+              <th>Usuario en GitHub</th>
+              <th>GitHub</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td> Leandro Roldan </td>
+              <td> pleroldan </td>
+              <td>
+                <a href="https://github.com/pleroldan">
+                  <img src="https://img.shields.io/badge/github-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/>
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td> Fernando Gimenez Coria </td>
+              <td> FerCbr </td>
+              <td>
+                <a href="https://github.com/FerCbr">
+                  <img src="https://img.shields.io/badge/github-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/>
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td> Karina jazmin barbero </td>
+              <td> karina-lolis </td>
+              <td>
+                <a href="https://github.com/karina-lolis">
+                  <img src="https://img.shields.io/badge/github-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/>
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td> Nicolás Nahuel Barrionuevo </td>
+              <td> NicolasBa27 </td>
+              <td>
+                <a href="https://github.com/NicolasBa27">
+                  <img src="https://img.shields.io/badge/github-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/>
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td> Macarena Aylen Carballo </td>
+              <td> MacarenaAC </td>
+              <td>
+                <a href="https://github.com/MacarenaAC">
+                  <img src="https://img.shields.io/badge/github-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/>
+                </a>
+              </td>
+            </tr>
+           <tr>
+              <td> Raul Jara </td>
+              <td> r-j28 </td>
+              <td>
+                <a href="https://github.com/r-j28">
+                  <img src="https://img.shields.io/badge/github-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/>
+                </a>
+              </td>
+            </tr>
+           <tr>
+              <td> Diego Ezequiel Ares </td>
+              <td>  diegote7 </td>
+              <td>
+                <a href="https://github.com/diegote7">
+                  <img src="https://img.shields.io/badge/github-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/>
+                </a>
+              </td>
+            </tr>
+           <tr>
+              <td> Romina Huk </td>
+              <td> RoHu17 </td>
+              <td>
+                <a href="https://github.com/RoHu17">
+                  <img src="https://img.shields.io/badge/github-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/>
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td> Paola Pantoja </td>
+              <td> - </td>
+              <td>
+                <a href="https://github.com/PaolaaPantoja">
+                  <img src="https://img.shields.io/badge/github-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/>
+                </a>
+              </td>
+            </tr>
+        </table>
+  </dd>
+  <dd>
+<dl>
 
 ### Sistema IoT para el Monitoreo de Calidad del Aire.
 
@@ -25,8 +134,8 @@
 
 - Este repositorio contiene la documentación y el código fuente para el prototipo de un dispositivo IoT diseñado para el monitoreo continuo de la calidad del aire en ambientes inmóticos. El objetivo de este prototipo es probar la funcionalidad básica del dispositivo, incluyendo la captura de datos, procesamiento inicial, y transmisión segura a una plataforma en la nube. Se busca identificar patrones en los niveles de contaminantes y otros factores que afectan la calidad del aire para permitir la toma de decisiones informadas y la activación de sistemas de respuesta automática.
 
-**Estructura del Prototipo**
-1. **Equipo**
+## **Estructura del Prototipo**
+###  **Equipo**
    
 - **Componentes principales:**
 
@@ -35,7 +144,7 @@
 - Batería: Se empleará una batería LiPo de 3.7V 1000mAh (mínimo) recargable para asegurar la operación continua del dispositivo durante períodos prolongados.
 - Carcasa: Se diseñará una carcasa a medida, posiblemente fabricada con una impresora 3D, para alojar el hardware del prototipo.
 
-2. **Software**
+### **Software**
    
 - **Módulos principales:**
 
@@ -45,7 +154,7 @@
 - Gestión de Energía: Implementación de rutinas de bajo consumo para maximizar la duración de la batería.
 - Interfaz de Usuario: Una sencilla interfaz LCD o LED que mostrará el estado del dispositivo y los niveles de calidad del aire en tiempo real.
 
-3. **Conectividad**
+### **Conectividad**
    
 
 - **Redes soportadas:**
@@ -58,7 +167,7 @@
 - MQTT: Protocolo de mensajería ligero utilizado para la transmisión de datos a la plataforma en la nube.
 - HTTP/HTTPS: Utilizado para la comunicación segura con servidores web y APIs.
 
-4. **Plataforma en la Nube**
+### **Plataforma en la Nube**
    
 
 - **Servicios sugeridos a utilizar:**
@@ -67,7 +176,7 @@
 - Base de Datos NoSQL: Almacenamiento de datos en una base de datos NoSQL para un acceso rápido y eficiente.
 - Dashboard de Monitoreo: Una interfaz web sencilla que permitirá la visualización en tiempo real de los datos de calidad del aire transmitidos por el dispositivo.
 
-5. **Pruebas y Validación**
+### **Pruebas y Validación**
    
 
 - **Pruebas realizadas:**
@@ -76,7 +185,7 @@
 - Pruebas de Precisión: Comparación de las lecturas de los sensores con equipos de monitoreo de calidad del aire estándar para validar la precisión.
 - Pruebas de Durabilidad: Evaluación de la duración de la batería bajo uso continuo.
 
-6. **Instrucciones de Configuración**
+### **Instrucciones de Configuración**
    
 
 - **Requisitos previos:**
@@ -91,7 +200,7 @@
 - Configurar la Red: Configurar los parámetros de red (SSID, contraseña) en el archivo config.h.
 - Ejecutar el Prototipo: Encender el dispositivo y verificar que los datos se transmiten correctamente a la nube.
 
-7. **Futuras Mejoras**
+### **Futuras Mejoras**
    
 
 - Optimización del Consumo de Energía: Mejorar las rutinas de gestión de energía para extender la duración de la batería.
@@ -101,13 +210,3 @@
 
 **Licencia**
 Este proyecto está bajo la licencia ISPC. Consulta el archivo LICENSE para más detalles.
-
-
-
-
-
-
-
-
-
-
