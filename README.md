@@ -1,5 +1,5 @@
 
-[![imagen-G-P-preprocesamiento.jpg](https://i.postimg.cc/C1PbbHCQ/imagen-G-P-preprocesamiento.jpg)](https://postimg.cc/HcMJgMhw)
+![imagen-G-P-preprocesamiento.jpg](./E%20assets/caratula%20princ.jfif)
 
 ## Instituto: ISPC  
 **Carrera:** Tecnicatura Superior en Telecomunicaciones.  
@@ -136,9 +136,101 @@
 ### Descripción del Proyecto:
 Este proyecto tiene como objetivo diseñar e implementar un sistema IoT para monitorear la calidad del aire en áreas urbanas, utilizando sensores que miden temperatura, humedad, luz, presión atmosférica, rayos UV y la concentración de gases contaminantes. La información recolectada permitirá tener una visión clara de los problemas relacionados con la calidad del aire en la ciudad, ofreciendo datos concretos para la toma de decisiones. Además, el sistema será capaz de generar alertas en caso de condiciones peligrosas, mejorando la calidad de vida y seguridad de las personas, al mismo tiempo de estar protegiendo el medio ambiente y promoviendo el desarrollo sostenible.
 
-El sistema procesará los datos localmente en dispositivos edge, aplicando lógicas de filtrado y normalización para tomar decisiones en tiempo real, realizando acciones de forma inteligente al riesgo presente. A futuro, los datos procesados podrán ser transmitidos a la nube para su almacenamiento y análisis más profundo.
+El sistema procesará los datos localmente en dispositivos edge, aplicando lógicas de filtrado y normalización para tomar decisiones en tiempo real, realizando acciones de forma inteligente al riesgo presente. A futuro, los datos procesados podrán ser transmitidos a la nube para su almacenamiento y análisis más profundo.  
+  
+  # Esquema de Implementacion del ESP32 con sus Conexiones**  
 
 
+![Esquema de coneccion](./E%20assets/proyecto_AQI_esquema.jpeg)
+
+
+En el esquema del proyecto de monitoreo de calidad del aire con el ESP32, se están utilizando varios sensores y dispositivos conectados al microcontrolador ESP32 mediante diferentes protocolos.
+
+**<u> Sensor de Gas MQ135 (conexión analógica):**</u>
+
+- Este sensor mide la calidad del aire midiendo la concentración de gases. Está conectado a un pin analógico del ESP32 (marcado en rosa), que leerá las variaciones de voltaje que el sensor produce.
+
+**<u> Sensor de Luz BH1750 (conexión I2C):**</u>
+
+- Este sensor mide la intensidad lumínica y está conectado a los pines SCL y SDA del ESP32 (protocolos I2C, marcados en amarillo). Usa comunicación I2C, lo que permite compartir los mismos pines con otros dispositivos I2C.
+
+**<u> Sensor de Presión BMP280 (conexión I2C):**</u>
+
+- El BMP280 mide la presión y la temperatura. También usa comunicación I2C (pines SCL y SDA compartidos).
+
+**<u> Sensor de Temperatura y Humedad AM2320 (conexión I2C):**</u>
+
+- Similar al BH1750, este sensor usa I2C para medir temperatura y humedad. Comparte los pines I2C (SCL y SDA).
+
+**<u>Sensor UV ML8511 (conexión analógica):**</u>
+
+- El sensor mide los niveles de radiación ultravioleta. Está conectado a un pin analógico del ESP32.
+
+**<u> Tira LED WS2812:**</u>
+
+- Estos LED RGB y direccionables. Su control se realiza por un pin digital del ESP32 y permite cambiar el color de los led de manera que se pueda mostrar el indice de calidad del aire en forma de colores.  
+
+**<u>Pulsadores Touch:**</u>
+
+- Los botones táctiles están conectados a pines digitales del ESP32, permitiendo la interacción manual.
+
+**<u> Pantalla LCD 2x16 (conexión I2C):**</u>
+
+- La pantalla se conecta a los pines I2C (SCL y SDA), permitiendo mostrar información de los sensores.  
+  
+**<u> Pantalla LCD 2x16 opcional (conexión paralela ):**</u>    
+  
+- La pantalla se conecta a los pines I2C (SCL y SDA), permitiendo mostrar información de los sensores.
+
+Todos estos dispositivos están conectados a través de protocolos analógicos y digitales (I2C para varios sensores), mientras que el ESP32 procesa los datos y controla las salidas como la pantalla y el LED.  
+  
+### 2. **Configuración de Hardware**
+
+Los sensores se conectan al ESP32-Wroom según las siguientes especificaciones:
+
+- **MQ135 (Analógico):**
+  - **VCC:** 3.3V
+  - **GND:** GND
+  - **Salida de señal:** GPIO36 (ADC1_CH0)  
+    
+- **ML8511(Analógico):**
+  - **VCC:** 3.3V
+  - **GND:** GND
+  - **Salida de señal:** GPIO33 (ADC5_CH0)
+  
+- **AHT25 (I2C):**
+  - **VCC:** 3.3V
+  - **GND:** GND
+  - **SDA:** GPIO21
+  - **SCL:** GPIO22
+  
+- **BMP280 (I2C):**
+  - **VCC:** 3.3V
+  - **GND:** GND
+  - **SDA:** GPIO21
+  - **SCL:** GPIO22  
+  
+- **BH1750 (I2C):**
+  - **VCC:** 3.3V
+  - **GND:** GND
+  - **SDA:** GPIO21
+  - **SCL:** GPIO22
+  
+- **Display LCD (I2C):**
+  - **VCC:** 3.3V
+  - **GND:** GND
+  - **SDA:** GPIO21
+  - **SCL:** GPIO22  
+
+- **Display LCD (paralelo 4 bits):**      
+  - **RS (Register Select)** GPIO7: Selecciona el registro de datos o comandos. 
+  - **RW (Read/Write)**GPIO8: Indica si se está leyendo o escribiendo datos.
+  - **D4-D7** GPIO9, GPIO10, GPIO11, GPIO12: Pines de datos para enviar información de 4 bits.
+  
+- **Tira led WS2812:**
+  - **VCC:** 3.3V
+  - **GND:** GND
+  - **CONTROL:** GIOP39
 
 ### Componentes del Proyecto:
 
