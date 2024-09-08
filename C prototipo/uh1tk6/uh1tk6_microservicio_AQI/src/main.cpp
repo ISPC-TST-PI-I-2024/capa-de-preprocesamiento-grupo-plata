@@ -5,7 +5,7 @@
 #include "BMP280Sensor.h"
 
 // --------------------- Configuración de Pines ---------------------
-#define MQ135_PIN 34 // GPIO34 (ADC1_CH6)
+#define MQ135_PIN 36 // GPIO36 (ADC1_CH6)
 
 // --------------------- Inicialización de Sensores ---------------------
 MQ135Sensor mq135(MQ135_PIN);
@@ -30,7 +30,7 @@ void setup() {
 // --------------------- Bucle Principal ---------------------
 void loop() {
     // Lectura y filtrado de datos del MQ135
-    float mq135Data = mq135.readFilteredData();
+    float mq135Data = (float) mq135.readFilteredData();
     if (mq135Data == -1) {
         Serial.println("Lectura MQ135 inválida.");
     } else {

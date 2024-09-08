@@ -8,14 +8,15 @@ Los datos recogidos son filtrados y mostrados en el monitor serie.
 
 ## Estructura del Proyecto
 
-src/   
-├── main.cpp   
+lib/   
 ├── MQ135Sensor.cpp   
 ├── MQ135Sensor.h   
 ├── AHT25Sensor.cpp   
 ├── AHT25Sensor.h   
 ├── BMP280Sensor.cpp   
-├── BMP280Sensor.h  
+├── BMP280Sensor.h   
+src/  
+├── main.cpp
 
   
 
@@ -124,7 +125,7 @@ Los sensores se conectan al ESP32-Wroom según las siguientes especificaciones:
 - **MQ135 (Analógico):**
   - **VCC:** 3.3V
   - **GND:** GND
-  - **Salida de señal:** GPIO34 (ADC1_CH6)
+  - **Salida de señal:** GPIO36 (ADC1_CH0)
   
 - **AHT25 (I2C):**
   - **VCC:** 3.3V
@@ -156,10 +157,6 @@ Abrir el **Monitor Serie** en el IDE y configurarlo a **115200 baudios** para ob
 Este proyecto está diseñado para ser fácilmente escalable.   
 Se puedes agregar más sensores o funcionalidades, como enviar los datos a una plataforma en la nube o a un servidor remoto.   
 El código modular facilita la incorporación de nuevas características sin afectar la estructura existente.
-
-## Contribuciones
-
-Si deseas contribuir a este proyecto, por favor, abre un issue o un pull request. Todas las contribuciones son bienvenidas.
 
 ## Licencia
 
