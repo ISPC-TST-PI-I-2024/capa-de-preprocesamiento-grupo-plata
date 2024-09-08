@@ -141,7 +141,8 @@ El sistema procesará los datos localmente en dispositivos edge, aplicando lógi
   # Esquema de Implementacion del ESP32 con sus Conexiones**  
 
 
-![Esquema de coneccion](./E%20assets/proyecto_AQI_esquema.jpeg)
+![Esquema de conexion](https://github.com/user-attachments/assets/1a53570d-59b4-4467-82b4-9e80b605a3d7)
+
 
 
 En el esquema del proyecto de monitoreo de calidad del aire con el ESP32, se están utilizando varios sensores y dispositivos conectados al microcontrolador ESP32 mediante diferentes protocolos.
