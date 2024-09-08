@@ -138,7 +138,7 @@ Este proyecto tiene como objetivo diseñar e implementar un sistema IoT para mon
 
 El sistema procesará los datos localmente en dispositivos edge, aplicando lógicas de filtrado y normalización para tomar decisiones en tiempo real, realizando acciones de forma inteligente al riesgo presente. A futuro, los datos procesados podrán ser transmitidos a la nube para su almacenamiento y análisis más profundo.  
   
-  # Esquema de Implementacion del ESP32 con sus Conexiones**  
+# <u>**Esquema de Implementacion del ESP32 con sus Conexiones.**</u> 
 
 
 ![Esquema de conexion](https://github.com/user-attachments/assets/1a53570d-59b4-4467-82b4-9e80b605a3d7)
