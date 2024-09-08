@@ -231,6 +231,11 @@ Los sensores se conectan al ESP32-Wroom según las siguientes especificaciones:
   - **VCC:** 3.3V
   - **GND:** GND
   - **CONTROL:** GIOP39
+  
+## Localizacion del proyecto en el repositorio:      
+[Proyecto AQI](./C%20prototipo/Proyecto%20AQI/)
+
+## Este proyecto se baso en las practicas y tests cargados por el equipo de desarrollo en el repositorio https://github.com/ISPC-TST-PI-I-2024/Proyecto-AQI-Grupo-Plata 
 
 ### Componentes del Proyecto:
 
