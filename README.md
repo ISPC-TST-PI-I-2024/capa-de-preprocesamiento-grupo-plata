@@ -224,7 +224,7 @@ Los sensores se conectan al ESP32-Wroom según las siguientes especificaciones:
 
 - **Display LCD (paralelo 4 bits):**      
   - **RS (Register Select)** GPIO7: Selecciona el registro de datos o comandos. 
-  - **RW (Read/Write)**GPIO8: Indica si se está leyendo o escribiendo datos.
+  - **RW (Read/Write)** GPIO8: Indica si se está leyendo o escribiendo datos.
   - **D4-D7** GPIO9, GPIO10, GPIO11, GPIO12: Pines de datos para enviar información de 4 bits.
   
 - **Tira led WS2812:**
